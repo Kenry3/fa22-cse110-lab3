@@ -1,6 +1,40 @@
+
 h1 {
     color: red;
+    text-align: center;
+    font-size: 40px;
+}
+.body {
+    background-color: rgb(243, 243, 182);
+}
+#start {
+    text-align: center;
+    font-size: 2pc;
+    color: purple;
+}
+#vi {
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
+.con1 {
+    text-align: center;
+}
+.ol1 {
+    display: inline-block;
+    font-size: 20pt;
+    font-style: italic;
+    color: blue;
+}
+#ole {
+    color: green;
 }
 h2 {
     color: blue;
+}
+.block {
+    border: 2px solid rebeccapurple;
+    padding: .10em;
+}
+.dis {
+    background-color: rgb(232, 232, 198);
 }
