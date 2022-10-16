@@ -8,38 +8,38 @@
     <link rel="shortcut icon" href="screenshots/favicon.ico">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="body">
     <section>
     <h1 id="nav">Procedure</h1>
-    <p>
+    <p id="start">
         Let's get started!!!!
     </p>
     <hr>
-    <video controls width="500" height="300">
+    <video id="vi" controls width="500" height="300" autoplay loop>
 
         <source src="lgs.mp4">
     </video>
     <figure>
-        <figcaption>Listen to some soft music!</figcaption>
-        <audio
-            controls
-            src="lofi-study-112191.mp3">
+        <audio controls autoplay loop hidden>
+            <source src="lofi-study-112191.mp3">
         </audio>
     </figure>
+    <div class="con1">
     <nav>
-        <ol>
-            <li><a href="#p1">attendence check</a></li>
-            <li><a href="#p2">unfinished assignments</a></li>
-            <li><a href="#p3">Todays' topics</a></li>
-            <li><a href="#ds">Discussion section</a></li>
-            <li><a href="#ftf">Form to fill</a></li>
+        <ol class="ol1">
+            <li><a id="ole" href="#p1">attendence check</a></li>
+            <li><a id="ole" href="#p2">unfinished assignments</a></li>
+            <li><a id="ole" href="#p3">Todays' topics</a></li>
+            <li><a id="ole" href="#ds">Discussion section</a></li>
+            <li><a id="ole" href="#ftf">Form to fill</a></li>
         </ol>
     </nav>
+    </div>
     </section>
     <section>
     <h1>Project Design</h1>
     <hr>
-    <details open>
+    <details open class="block">
     <summary><h2 id="p1">Part 1: attendence check</h2></summary>
     <img src="ac.jpeg" width="500" height="300" alt="image">
         <h3>Present</h3>
@@ -59,7 +59,7 @@
             <li></li>
         </ul>
     </details>
-    <details open>
+    <details open class="block">
     <summary><h2 id="p2">Part 2: unfinished assignments</h2></summary>
     <img src="procrastinationmemes1-5c5852ba46e0fb000164dae7.jpeg" width="500" height="300" alt="image">
     <ol>
@@ -69,7 +69,7 @@
     </ol>
     <nav><b><a href="#ua">Go to the disccusion section</a></b></nav>
     </details>
-    <details open>
+    <details open class="block">
     <summary><h2 id="p3"> Part 3: Todays' topics</h2></summary>
     <img src="tt.jpeg" width="500" height="300" alt="image">
     <ul>
@@ -92,10 +92,13 @@
     </details>
     </section>
     <main>
-    <section>
+    <section class="dis">
     <h1 id="ds">Discussion section</h1>
     <hr>
-    <img src="lets-discuss-5b3aec.jpg" width="500" height="300" alt="image">
+    <img style="display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;" src="lets-discuss-5b3aec.jpg" width="500" height="300" alt="image">
     <h2 id="ua">unfinished assignments</h2>
     <span>
         <em>
