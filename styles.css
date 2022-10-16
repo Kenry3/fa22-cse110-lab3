@@ -113,11 +113,11 @@ h3 {
     background-color: #efe9ef;
     margin-bottom: 0%;
 }
-.g1 {
+.g1 , .g2{
     grid-column: 1/-1;
 }
-.g2 {
-    grid-column: 1/-1;
+img + h2 {
+    font-weight: bold;
 }
 .g3 {
 
@@ -132,4 +132,20 @@ h3 {
     .body {
         background-color: white;
     }
+}
+a[id*="ole"] {
+    font-weight: 100;
+}
+ul.atc > li {
+    margin: 2em;
+}
+h2 ~ span {
+    font-weight: 100;
+    text-decoration: underline;
+}
+* {
+    font-style: italic;
+}
+a.oll {
+    background-color:transparent;
 }
