@@ -15,7 +15,15 @@
         Let's get started!!!!
     </p>
     <hr>
-    <video id="vi" controls width="500" height="300" autoplay loop>
+    <video class="video" id="vi" controls width="500" height="300" autoplay loop>
+
+        <source src="lgs.mp4">
+    </video>
+    <video class="video" id="vi2" controls width="500" height="300" autoplay loop>
+
+        <source src="lgs.mp4">
+    </video>
+    <video class="video" id="vi3" controls width="500" height="300" autoplay loop>
 
         <source src="lgs.mp4">
     </video>
@@ -62,10 +70,10 @@
     <details open class="block">
     <summary><h2 id="p2">Part 2: unfinished assignments</h2></summary>
     <img src="procrastinationmemes1-5c5852ba46e0fb000164dae7.jpeg" width="500" height="300" alt="image">
-    <ol>
-        <li>Topic: Optimize Kosaraju's algorithm</li>
-        <li>Topic: Increase space efficiency</li>
-        <li>Topic: change the color display of the snake</li>
+    <ol class="ol2">
+        <li id="lii">Topic: Optimize Kosaraju's algorithm</li>
+        <li id="lii">Topic: Increase space efficiency</li>
+        <li id="lii">Topic: change the color display of the snake</li>
     </ol>
     <nav><b><a href="#ua">Go to the disccusion section</a></b></nav>
     </details>
@@ -73,13 +81,13 @@
     <summary><h2 id="p3"> Part 3: Todays' topics</h2></summary>
     <img src="tt.jpeg" width="500" height="300" alt="image">
     <ul>
-        <li>modification on graph search algorithm<br>
+        <li id="uli"><span id="sp">modification on graph search algorithm</span><br>
         <i>We have reached a soltuion by using dynamic programming that results a better<br> 
             efficiency, but we have to built something <strong>on top of</strong> that to<br> 
             have better performance due to the large scale of data.</i>
             <br>
         </li>
-        <li>web design
+        <li id="uli"><span id="sp">web design</span>
             <br>
             <i>
                 We have the back-end structure set up for our program,
@@ -100,95 +108,59 @@
     margin-right: auto;
     width: 40%;" src="lets-discuss-5b3aec.jpg" width="500" height="300" alt="image">
     <h2 id="ua">unfinished assignments</h2>
-    <span>
+    <span style="color: white;">
         <em>
             work space for adding notes and drawing graph
         </em>
     </span>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <div class="grid">
+        <div class="g1">Item1</div>
+        <div class="g2">Item2</div>
+        <div class="g3">Item3</div>
+        <div class="g4">Item4</div>
+        <div class="g5">Item5</div>
+    </div>
     <nav><b><a href="#p2">Go back</a></b></nav>
     <nav><b><a href="#nav">Go to Procedure</a></b></nav>
     <h2 id="tt">Todays' topics</h2>
-    <div>
+    <div style="color: white;">
         <em>
             work space for adding notes and drawing graph
         </em>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <div class="grid">
+        <div class="g1">Item1</div>
+        <div class="g2">Item2</div>
+        <div class="g3">Item3</div>
+        <div class="g4">Item4</div>
+        <div class="g5">Item5</div>
+    </div>
     <nav><b><a href="#p3">Go back</a></b></nav>
     <nav><b><a href="#nav">Go to Procedure</a></b></nav>
-    <br>
-    <br>
     </section>
     </main>
     <section>
     <h1 id="ftf">Form to fill</h1>
     <form>
+        <div class="nam">
+            <label for="name-select">What's your name:</label>
+                
+                <select name="names" id="name-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="Kenry">Kenry</option>
+                    <option value="Renky">Renky</option>
+                    <option value="Yernk">Yernk</option>
+                    <option value="Ernky">Ernky</option>
+                    <option value="Nerky">Nerky</option>
+                </select>
+            </div>
+        <div class="container">
+        <div class="box1">
         <img src="feel.jpeg" width="500" height="300" alt="image">
+        </div>
         <br>
         <br>
+        <div class="box2">
         <label for="sp">Choose a Spongebob:</label>
         <input list="sps" id="sp">
 
@@ -203,16 +175,8 @@
             <option value="8">
             <option value="9">
         </datalist>
-        <label for="name-select">What's your name:</label>
-
-        <select name="names" id="name-select">
-            <option value="">--Please choose an option--</option>
-            <option value="Kenry">Kenry</option>
-            <option value="Renky">Renky</option>
-            <option value="Yernk">Yernk</option>
-            <option value="Ernky">Ernky</option>
-            <option value="Nerky">Nerky</option>
-        </select>
+        </div>
+        </div>
         <fieldset>
           <legend>How do you feel about todays' disccusion?</legend>
       
