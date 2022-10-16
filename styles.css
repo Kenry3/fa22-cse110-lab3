@@ -128,3 +128,8 @@ h3 {
 .g5 {
 
 }
+@media (max-width: 1000px) {
+    .body {
+        background-color: white;
+    }
+}
